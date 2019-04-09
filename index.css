@@ -1,0 +1,140 @@
+/*--------- titres parties de tout le site -------*/
+
+h2{
+    padding-left : 10%;
+}
+
+  h5{
+    padding-left: 10%;
+}
+
+
+/*--------- carrousel ------*/
+
+.carousel-item{
+    height : 600px;
+    overflow: none;
+}
+
+.photos img{
+    width : 100%;
+}
+
+
+/*--------- hover 3 images -------*/
+
+.card-img-top:hover{
+    opacity: 1;
+}
+
+.card-img-top{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+.card-img-top img{
+    width: 100%;
+
+}
+
+
+/*--------- hover 1 et 3 -------*/
+
+.card-img-top:hover .reward{
+    display : none;
+}
+.card-img-top .reward{
+    width:60%;
+    padding : 2%;
+    position: absolute;
+    top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 4 rem;
+}
+
+
+/*--------- hover image milieu -------*/
+
+.card-img-top:hover .dead {
+    display: none;
+}
+
+.card-img-top .dead{
+    width:60%;
+    position: absolute;
+    top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    color : white;
+    font-size: 4 rem;
+}
+
+
+/*--------- section bouton contact us -------*/
+
+
+.txt_img{
+    padding-right : 10%;
+    padding-left :10%;
+}
+
+.image_droite{
+    width: 100%;
+}
+
+
+/*--------- card tableau -------*/
+
+.card1{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+table, td,tr {
+  border: 1px solid #333;
+}
+
+
+/*--------- image ronde -------*/
+
+.image-ronde{
+    border-radius:100%;
+    width:80%;
+    height:80%;
+}
+
+
+/*--------- footer-------*/
+
+ul {
+    list-style:none;
+    }
+
+/*--------- footer-------*/
+
+.page-footer{
+    background-color: grey;
+}
+
+a{
+    color: black;
+}
+
+
+
